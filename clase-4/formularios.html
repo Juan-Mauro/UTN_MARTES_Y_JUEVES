@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formularios en HTML</h1>
+    <form>
+        <label for="nombre">ingrese su nombre</label>
+        <input 
+            type="text" 
+            minlength="5" 
+            maxlength="10" 
+            placeholder="Joe Doe" 
+            id="nombre"> 
+        
+        <label for="password">ingrese su contraseña</label>
+        <input 
+            type="password"
+            id=password
+            name="password">
+
+            
+
+        <button type="button">Guardar contraseña</button>
+        <button type="button">validar si es segura</button>
+        <input type="number" min="1" max="10">
+        <input type="email" required>
+
+        <input type="file" name="" id="">
+        <input type="date">
+        <input type="time">
+
+        <input type="datetime-local">
+
+        <input 
+            type="submit" 
+            value="iniciar sesion">
+        <button 
+            type="submit"
+            title="boton de registro">registrar</button>
+        <button type="button">iniciar sesion con google</button>
+
+        <label for="mensaje">ingrese un mensaje:</label>
+        <textarea 
+            id="mensaje" 
+            minlength="5" 
+            maxlength="100" 
+            required 
+            placeholder="ingrese su comentario aqui..."
+            name="mensaje"
+        ></textarea>
+        <br>   
+
+        
+        <span>selecciona tu lenguaje preferido</span>
+        <br>
+        <label for="html">HTML</label>
+        <input type="radio" id="html" name="seleccionar-lenguaje">
+        <br>
+        <label for="css">CSS</label>
+        <input type="radio" id="css" name="seleccionar-lenguaje">
+        <br>
+        <label for="javascript">Javascript</label>
+        <input type="radio" id="javascript" name="seleccionar-lenguaje">
+        <br>
+        
+        
+        <span>selecciona tus lenguajes conocidos</span>
+        <br>
+        <label for="html-conoocido">HTML</label>
+        <input type="checkbox" id="html-conocido" name="seleccionar-lenguaje-conocido" value="html">
+        <br>
+        <label for="css-conoocido">CSS</label>
+        <input type="checkbox" id="css-conocido" name="seleccionar-lenguaje-conocido" value="css">
+        <br>
+        <label for="javascript-conoocido">Javascript</label>
+        <input type="checkbox" id="javascrip-conocido" name="seleccionar-lenguaje-conocido" value="javascript">
+
+        <br>
+
+        <label for="pais">seleccionar un pais</label>
+        <select name="pais" id="pais">
+            <option value="AR">Argentina</option>
+            <option value="FR">Francia</option>
+            <option value="BR">Brasil</option>
+            <option value="NULO" selected disabled>no seleccionado</option>
+
+        </select>
+
+
+        
+        <hr>
+        <!-- etiqueta input type=radio -->
+        <!-- <input type="radio"> -->
+
+
+    </form>
+
+</body>
+</html>
